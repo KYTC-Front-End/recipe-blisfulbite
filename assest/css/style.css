@@ -1,13 +1,255 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-     
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Serif Pro", "lato";
 }
-/* header section */
-.header-contaier{
-width: 100vw;
-height: 600px;
-background-image: url(./heroooooo.png);
-background-repeat: no-repeat;
-background-size: cover;
+/* ---------------------------------------header section----------------------------------------------- */
+.header-container {
+  width: 100vw;
+  height: 650px;
+  background-image: url("../image/heroo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-around;
+  gap: 90px;
+  height: 629px;
+  width: 100vw;
+}
+#header-logo {
+  width: 90px;
+  margin-top: 2px;
+}
+
+.header-center {
+  display: flex;
+  font-family: lato;
+  justify-content: flex-start;
+  margin-top: 30px;
+  gap: 80px;
+}
+/* nav{
+  color: #fff;
+} */
+
+.header-left input[type="text"] {
+  padding: 6px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 22px;
+  margin-right: 16px;
+  font-size: 8px;
+  position: relative;
+}
+
+/*----------------------------------------------hero start-----------------------------------------------*/
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 28px;
+  margin-top: -450px;
+}
+.hero-title {
+  color: #ffe592;
+  font-size: 56px;
+  text-shadow: 2px 2px 8px #ffe592;
+  line-height: 98px;
+  text-align: center;
+}
+
+.hero-content {
+  color: #fff;
+  margin-top: 51px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 45px;
+}
+.hero-btn {
+  border: 2px solid #ffe592;
+  border-radius: 50px;
+  padding: 8px;
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+}
+#hero-first-btn {
+  background-color: #ffe592;
+}
+#hero-sec-btn {
+  background-color: rgba(56, 48, 24, 10%);
+}
+
+/*--------------------------------------- category section start---------------------------------------- */
+.CATEGORY-container {
+  height: 400px;
+  line-height: 25px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.CATEGORY-container-title {
+  background-image: url(../image/Ellipse.png);
+  background-size: cover;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #38302a;
+  font-weight: bold;
+}
+
+.CATEGORY-content-cards-top {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 450px;
+}
+.CATEGORY-content-cards-top-in {
+  width: 300px;
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-pic {
+  width: 297px;
+  height: 200px;
+  margin-bottom: -10px;
+}
+
+.CATEGORY-content-cards-bottom {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 400px;
+  margin-top: 100px;
+}
+.CATEGORY-content-cards-bottom-in {
+  width: 300px;
+  height: 450px;
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CATEGORY-content-cards-background-dark {
+  background-color: #38302a;
+  width: 297px;
+  height: 34px;
+  color: #fff;
+}
+
+.CATEGORY-content-cards-background-light {
+  background-color: rgba(56, 48, 42, 50%);
+  width: 297px;
+  height: 34px;
+  color: #fff;
+  margin-top: 2px;
+}
+.CATEGORY-btn {
+  border: 2px solid #ffe592;
+  border-radius: 50px;
+  padding: 8px;
+  background-color: #ffe592;
+  width: 116px;
+  height: 35px;
+  margin-top: 25px;
+}
+
+/*-------------------------------------- listing page style-------------------------------------------- */
+
+/*----------------------------------------- header section-------------------------------------------- */
+.headerr-container {
+  width: 100vw;
+  height: 100px;
+}
+
+.headerr-bottom {
+  display: flex;
+  justify-content: space-around;
+  gap: 90px;
+  height: 629px;
+  width: 100vw;
+}
+#headerr-logo {
+  width: 90px;
+  margin-top: 2px;
+}
+
+.headerr-center {
+  display: flex;
+  font-family: lato;
+  justify-content: flex-start;
+  margin-top: 30px;
+  gap: 80px;
+}
+
+.headerr-left input[type="text"] {
+  padding: 6px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-right: 16px;
+  font-size: 8px;
+}
+
+.filter-contaier {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 169px;
+  gap: 5px;
+  font-size: 16px;
+}
+
+.Recipe-Listing-contaier {
+  width: 100%;
+  height: 100%;
+  margin-top: 110px;
+}
+
+.Recipe-Listing-content-cards {
+  border: 5px solid #000;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 38px;
+  align-items: center;
+  width: 818px;
+  height: 275px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #222222;
+}
+.listig-img {
+  width: 340px;
+  height: 259px;
+  display: flex;
+  border-right: 5px;
+}
+.Recipe-Listing-contaier {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Recipe-Listing-content-cards-in {
+  display: flex;
+  flex-direction: row;
+  margin-top: -45px;
+  margin-bottom: 30px;
+}
+
+.cat-p-style{
+  line-height: 30px;
+  font-weight: bold;
 }
