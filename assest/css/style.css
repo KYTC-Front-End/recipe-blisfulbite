@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    /* flex-direction:column ; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bg{
+    
+    background-image: url(./images/bg1.png);
+    width: 100vw;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    line-height: 28px;
+}
+.header-contaier {
+    
+    width: 100vw;
+    height: 10vh;
+    color:#fff;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.4rem;
+    align-items: center;
+
+}
+
+.header-search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    gap: 30px;
+    width: 20vw;
+    height: 5vh;
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #666666;
+    padding: 15px;
+    border-radius: 50px;
+
+}
+
+.header-center {
+    display: flex;
+    gap: 30px;
+}
+.header-center-Black {
+    color: #000;
+
+}
+/* hero section */
+
+
+
+
+/* add section */
+.add-contaier{
+    height: 80vh;
+    line-height: 40px;
+}
+.add-contaier-title{
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+}
+.add-contaier-title-s{
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: .9px; 
+}
+.add-center{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+.add-center-form-label{
+    display: flex;
+    flex-direction: column;
+}
+.add-center-form-label1{
+    display: flex;
+    flex-direction: column;
+}
+.add-center-form-label2{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+.add-center-form{
+    width: 50vw;
+    height: 50vh;
+    letter-spacing: 1.4px;
+    font-size:1.2rem;
+    letter-spacing: .9px; 
+}
+.add-center-img{
+    width: 15vw;
+    height: 42vh;
+}
+
+.add-center-img img{
+    width: 10vw;
+}
+.x1{
+   font-size: 1.5rem;
+}
+.x2{
+    font-size: 1.3rem;
+    width: 30vw;
+    height: 8vh;
+    border: 2px solid #000;
+ }
+ .x3{
+    border: 2px solid #000;
+    width: 30vw;
+ }
+ .components-btn1{
+    width: 30vw;
+    height: 10vh;
+    background-color: #FFE592;
+ }
+/* Detail section */
+.Detail-contaier{
+    height:100vh;
+    line-height: 40px;
+}
+.Detail-contaier-title{
+    text-align: center;
+    font-size: 1.8rem; 
+    padding: 1%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.Detail-content-image{
+display: flex;
+justify-content: space-between;
+}
+
+
+#users-span{
+    color: #9F9F9F;
+}
+.users-contaier{
+    height: 50vh;
+    line-height: 70px;
+}
+.users-title{
+    text-align: center;
+    padding-top: 50vh;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-size: 2rem;
+}
+.users-content{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.users-content-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5%;
+    width: 29%;
+    height: 40vh;
+    border-radius: 10px;
+    border: 3px solid #0842A9;
+    padding: 20px;
+}
+.users-contaier-card-top-left img{
+    padding: 10%;
+    width: 100%;
+    height: 100%;
+}
+.users-content-cards p {
+    text-align: left;
+    line-height: 150%;
+}
+.users-contaier-card-top{
+    display: flex;
+    gap: 3%;
+}
+#user1{
+    border-radius: 50%;
+}
+#user2{
+    border-radius: 50%;
+}
+#user3{
+    border-radius: 50%;
+}
+.stars{
+    display: flex;
+}
+.components-contaier{
+    height: 50vh;
+    width: 100vw;
+    padding-top: 10%;
+}
+.components-content{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1.2%;  
+   font-size: 1.5rem;
+}
+.method-contaier{
+    width: 100vw;
+    height: 60vh;
+    padding-top:5%;
+    display: flex;
+    flex-direction: column;
+}
+.method-content{ 
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    padding:1% 15% 15% 15%;
+}
+.hero-btn-detalis{
+    margin-top: 7vw;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+.hero-btn {
+  border: 1% solid #FFE592;
+  border-radius: 50px;
+  padding: 1%;
+  background-color: #FFE592;
+  width: 20vw;
+  height: 7vh;
+  font-size: 1.5rem;
+  
+}
+
