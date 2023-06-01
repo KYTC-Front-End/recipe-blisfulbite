@@ -7,7 +7,6 @@
 }
 body{
     display: flex;
-    /* flex-direction:column ; */
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -98,15 +97,14 @@ body{
 .add-center-form-label2{
     display: flex;
     flex-direction: column;
-    gap: 10vh;
+    /* gap: 100%; */
 }
 .add-center-form{
     width: 50vw;
     height: 50vh;
     letter-spacing: 1.4px;
     font-size:1.2rem;
-    letter-spacing: .9px; 
-}
+  }
 .add-center-img{
     width: 15vw;
     height: 42vh;
