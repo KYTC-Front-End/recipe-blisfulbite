@@ -1,4 +1,4 @@
-@media(max-width:600px) {
+@media (max-width: 600px) {
 
     /* submit */
     .add-contaier {
@@ -33,16 +33,7 @@
     }
 
     /* detalis */
-    .Detail-contaier-title {
-        font-size: 1.9rem;
-        padding-top:22% ;
-    }
-    .Detail-contaier {
-        height: 71vh;
-    }
-    .components-contaier {
-        height: 31vh;
-    }
+    
 
 
     .users-contaier {
@@ -52,14 +43,50 @@
     .users-title {
         padding-top: 28vh;
     }
-    .br-d{
-        display: inline;
-        /* display: flex;
-        flex-direction: row;
-        width: 1px;
-        height: 1px;
-        flex-wrap: wrap; */
-    }
-    
+
+    .details .hero-image {
+        width: 20%;
+        height: 10%;
+        margin: 0;
+      }
+      .details .hero-image .small-img {
+        display: none;
+      }
+      
+      .details h4 {
+        font-size: 2rem;
+        padding: 2rem;
+        line-height: 2rem;
+        
+      }
+      .com-tit{
+        margin: 19rem auto 0;
+      }
+      .details .ingredients {
+        width: 40%;
+        margin: 1.4rem auto 0;
+        display:block;
+      }
+      
+      .details .instructions {
+        width: 45%;
+        font-size: 1rem;
+      }
+      
+      .details .btn {
+        text-align: center;
+        margin: 2rem 0;
+      }
+      
+      .details .btn button {
+        font-size: 1rem;
+        font-weight: bolder;
+        padding: 0.3rem 2rem;
+        border-radius: 1.5rem;
+        margin-right: 1rem;
+      }
+      .users-contaier{
+        display: none;
+      }
 
 }
