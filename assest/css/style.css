@@ -3,6 +3,7 @@
   box-sizing: border-box;
   font-family: "Source Serif Pro", "lato";
 }
+<<<<<<< HEAD
 body {
   display: flex;
   flex-wrap: wrap;
@@ -220,6 +221,11 @@ body {
 }
 
 /* ---------------------------------------header section----------------------------------------------- */
+=======
+/*------------------------------------------------------home bage start------------------------------------------------------------- */
+
+/* -----------------------------------------------------header section-------------------------------------------------------------- */
+>>>>>>> 45fc06968b0babdabaecb1255c4d622dc5b0aa3e
 .header-container {
   width: 100vw;
   height: 650px;
@@ -236,7 +242,7 @@ body {
   width: 100vw;
 }
 #header-logo {
-  width: 90px;
+  width: 80px;
   margin-top: 2px;
 }
 
@@ -246,21 +252,26 @@ body {
   justify-content: flex-start;
   margin-top: 30px;
   gap: 80px;
-}
-/* nav{
   color: #fff;
-} */
+}
 
 .header-left input[type="text"] {
   padding: 6px;
   border-radius: 10px;
   border: none;
-  margin-top: 22px;
-  margin-right: 16px;
   font-size: 8px;
   position: relative;
+  top: 10px;
 }
+.search{
+  position: relative;
+  top: -9px;
+  right: -3px;
+}
+.header-left{
+  margin-top: 17px;
 
+}
 /*----------------------------------------------hero start-----------------------------------------------*/
 .hero-container {
   display: flex;
@@ -298,6 +309,7 @@ body {
 }
 #hero-sec-btn {
   background-color: rgba(56, 48, 24, 10%);
+  color: #fff;
 }
 
 /*--------------------------------------- category section start---------------------------------------- */
@@ -309,8 +321,6 @@ body {
 }
 
 .CATEGORY-container-title {
-  background-image: url(../image/Ellipse.png);
-  background-size: cover;
   text-align: center;
   margin-top: 130px;
   margin-bottom: 60px;
@@ -396,7 +406,7 @@ body {
   width: 100vw;
 }
 #headerr-logo {
-  width: 90px;
+  width: 80px;
   margin-top: 2px;
 }
 
@@ -406,21 +416,29 @@ body {
   justify-content: flex-start;
   margin-top: 30px;
   gap: 80px;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
 }
 
 .headerr-left input[type="text"] {
   padding: 6px;
   border-radius: 10px;
-  margin-top: 30px;
+  border: none;
+  margin-top: 22px;
   margin-right: 16px;
   font-size: 8px;
+  position: relative;
 }
 
 .filter-contaier {
   display: flex;
   flex-direction: row;
   justify-content: end;
-  margin-right: 169px;
+  margin-right: 166px;
   gap: 5px;
   font-size: 16px;
 }
@@ -441,11 +459,15 @@ body {
   width: 818px;
   height: 275px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 45fc06968b0babdabaecb1255c4d622dc5b0aa3e
 .listig-img {
   width: 340px;
-  height: 259px;
+  height: 265px;
   display: flex;
-  border-right: 5px;
+  border-right: 5px solid #000;
 }
 .Recipe-Listing-contaier {
   display: flex;
@@ -455,7 +477,6 @@ body {
 .Recipe-Listing-content-cards-in {
   display: flex;
   flex-direction: row;
-  margin-top: -45px;
   margin-bottom: 30px;
 }
 
@@ -463,6 +484,7 @@ body {
   line-height: 30px;
   font-weight: bold;
 }
+<<<<<<< HEAD
 
 .details .hero-image {
   width: 70%;
@@ -509,4 +531,18 @@ body {
   padding: 0.8rem 2.5rem;
   border-radius: 1.5rem;
   margin-right: 10rem;
+=======
+.Recipe-Listing-btn {
+  border: 1px solid #000;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #ffe592;
+  width: 116px;
+  height: 35px;
+  margin-top: 28px;
+}
+.Recipe-Listing-content-cards-btn {
+  display: flex;
+  gap: 10px;
+>>>>>>> 45fc06968b0babdabaecb1255c4d622dc5b0aa3e
 }
