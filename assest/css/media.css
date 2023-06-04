@@ -1,4 +1,97 @@
 @media (max-width: 600px) {
+<<<<<<< HEAD
+
+    /* submit */
+    .add-contaier {
+        height: 70vh;
+    }
+
+    .add-contaier-title {
+        font-size: 1.9rem;
+    }
+
+    .add-contaier-title-s {
+        font-size: 1rem;
+    }
+
+    .add-center-form {
+        height: 70vh;
+        font-size: 1.5rem;
+    }
+
+    .add-center-img {
+        width: 50vw;
+        height: 100vh;
+    }
+
+    .add-center-img img {
+        width: 10vw;
+        height: 40vh;
+    }
+
+    .x2 {
+        height: 4vh;
+    }
+
+    /* detalis */
+    
+
+
+    .users-contaier {
+        line-height: 40px;
+    }
+
+    .users-title {
+        padding-top: 28vh;
+    }
+
+    .details .hero-image {
+        width: 20%;
+        height: 10%;
+        margin: 0;
+      }
+      .details .hero-image .small-img {
+        display: none;
+      }
+      
+      .details h4 {
+        font-size: 2rem;
+        padding: 2rem;
+        line-height: 2rem;
+        
+      }
+      .com-tit{
+        margin: 19rem auto 0;
+      }
+      .details .ingredients {
+        width: 40%;
+        margin: 1.4rem auto 0;
+        display:block;
+      }
+      
+      .details .instructions {
+        width: 45%;
+        font-size: 1rem;
+      }
+      
+      .details .btn {
+        text-align: center;
+        margin: 2rem 0;
+      }
+      
+      .details .btn button {
+        font-size: 1rem;
+        font-weight: bolder;
+        padding: 0.3rem 2rem;
+        border-radius: 1.5rem;
+        margin-right: 1rem;
+      }
+      .users-contaier{
+        display: none;
+      }
+
+}
+=======
   .header-container {
     width: 79rem;
     height: 43.625rem;
@@ -379,3 +472,4 @@
 }
 
 }
+>>>>>>> 45fc06968b0babdabaecb1255c4d622dc5b0aa3e
